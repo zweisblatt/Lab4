@@ -8,13 +8,13 @@ public class Main {
         double weeklyEarnings = 0.0;
 
         System.out.println("Enter hourly wage.");
-        hourlyWage = scnr.nextInt();
+        hourlyWage = scnr.nextDouble();
 
         System.out.println("Enter hours worked this week.");
-        hourlyWage = scnr.nextInt();
+        hoursWorked = scnr.nextInt();
 
         weeklyEarnings = hourlyWage * hoursWorked;
 
-        System.out.println("You've earned "+weeklyEarnings+" this week.");
+        System.out.println("You've earned $"+weeklyEarnings+"0 this week.");
     }
 }
